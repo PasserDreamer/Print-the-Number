@@ -1,6 +1,15 @@
-# Sequence Index Generator
-# How to Use
+# 序列索引產生器 / Sequence Index Generator
+依照給予的數字，他將會產生一個序列，每個數字意味著他位於這個字串中的第幾個字元。
+
 Based on the given numbers, it will generate a sequence where each number indicates its position in the string.
+
+# 他能幹嘛? / What can it do?
+可以測試你的 LLM 能夠接受多少 Context Length 或是其他你想得到的用途。
+
+It can test how much context length your LLM can handle or serve any other purpose you can think of.
+
+# 如何使用 / How to Use
+
 ```
 python sig.py {number}
 ```
